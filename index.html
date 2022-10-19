@@ -433,30 +433,30 @@
     <form class="modal-form" name="modal-form" autocomplete="on" novalidate>
         <h3 class="modal-form-heading">Залиште свої дані, ми вам передзвонимо</h3>
 
-    <div class="modal-input-list list">
-    <label for="name" class="label-modal">Ім'я</label>
-        <input class="modal-input" type="name" name="name" id="name" />
-    </li>
+    <div class="modal-input-list">
+    <label for="name" class="modal-label">Ім'я</label>
+        <input class="modal-input" type="name" name="name" id="name" autofocus />
+    </div>
 
-    <li class="modal-input-list list">
-    <label for="phone-number" class="label-modal">Телефон</label>
+    <div class="modal-input-list">
+    <label for="phone-number" class="modal-label">Телефон</label>
         <input class="modal-input" type="tel" name="phone-number" id="phone-number" />
-    </li>
+    </div>
 
-    <li class="modal-input-list list">
-    <label for="email" class="label-modal">Пошта</label>
+    <div class="modal-input-list">
+    <label for="email" class="modal-label">Пошта</label>
         <input class="modal-input" type="email" name="email" id="email" />
-    </li>
+    </div>
 
-    <li class="modal-input-list list">
-    <label for="comment" class="label-modal">Коментар</label>
-        <textarea class="textarea" name="" id="" placeholder="Введіть текст" id="comment"></textarea>
-    </li>
-    </ul>
+    <div class="modal-input-list last-modal-child list">
+    <label for="comment" class="modal-label">Коментар</label>
+        <textarea class="textarea modal-input" name="comment" id="comment" placeholder="Введіть текст"></textarea>
+    </div>
 
+    <div class="modal-checkbox">
     <input type="checkbox" name="agreement" id="checkbox" />
     <label for="checkbox">Погоджуюся з розсилкою та приймаю Умови договору</label>
-
+</div>
 
 
     <button type="submit" class="button-modal btn-basics btn-hero">Відправити</button>
