@@ -737,17 +737,39 @@ button {
     margin-bottom: 4px;
 }
 
-  .modal-input {
+ .modal-span-input {
+    position: relative;
+ }
+
+ .modal-input {
+    position: relative;
+
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     margin: 0;
-    padding: 12px 15px;
+    padding-left: 45px;
     height: 40px;
+    width: 100%;
 
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
   }
+
+  .modal-input:hover
+  .modal-input:focus {
+    border: #2196F3;
+  }
+
+  .modal-icon {
+    position: absolute;
+    top: 11px;
+    left: 12px;
+    fill: #212121;
+  }
+
+
+
 
   .modal-checkbox {
     margin-bottom: 30px;
