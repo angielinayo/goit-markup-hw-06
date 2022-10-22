@@ -652,6 +652,12 @@ button {
     fill: var(--white-text-color);
   }
 
+
+  .subscribe-container {
+
+  }
+
+
   /*=============================MODAL WINDOW=====================================*/
   .backdrop {
     position: fixed;
